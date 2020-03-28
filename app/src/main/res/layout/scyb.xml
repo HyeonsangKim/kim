@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/design_default_color_surface"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar3"
+    tools:context=".Scyb">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            app:srcCompat="@drawable/scyb" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:text="-신천지 예방하기"
+            android:textColor="@android:color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:fontFamily="@font/ridibatang"
+            android:text="보통 신천지는 아예 무교인 사람들보나 기존의 교회를 다니는 교회 성도들에게 더많이 접근을 합니다.그들은 성경을 조금 알고 있기때문에 신천지가 잘못된 성경 정보로 비꼬아 설득하기 쉽기 때문이지요.아예 모르는 사람보다 얄팍한 성경지식이 잘못된 교리에 더욱더 빠져들기 쉽기 때문입니다.\n신천지는 주변인들을 통해 정보를 모으고,그 모은 정보를 바탕으로 접근을 합니다.본인의 관심분야로 접근을 합니다.영어가 있을 수도 있겠고 뭐 기타를 가르쳐준다 하고 접근 할 수도 있겠죠.여기 까지는 좋은데 갑지기 문제가 생기기 시작합니다."
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+
+            />
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:text="-신천지의 성경책?"
+            android:textColor="@android:color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:fontFamily="@font/ridibatang"
+            android:text="신천지에서 주로 사용하는 성경은 '개역한글판'입니다.평소 관심사 영어를 가르쳐주거나 뭐 이런 활동들을 하다 갑자기 성경공부를 하자고 하죠.여기서 이들이 보는 성경은 '개역한글판'입니다.\n평소 가족들이 못보던 개혁한글 성경을 들고다닌다...그러면 지켜보서야 합니다.참고로 현재 개신교에서 쓰이는 성경은 '개역개정판'입니다. "
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+
+            />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ridibatang"
+        android:text="-주변에 알리지 마라 한다."
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:lineSpacingExtra="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ridibatang"
+        android:text="여기서 신천지 들이 성경공부를 같이 하자고 할때,주변 가족을이나 특히 '목사님'에게 절때 비밀로 하고 공부를 하자고 합니다.사실 여기서 이말이 나오면 거의 100프로 신천지가 맞다고 생각하시면 됩니다.혹시나 이런일이 생기시면 주변 가족들이나,목사님 하다못해 친구에게라도 꼭 말을 하셔야 합니다."
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ridibatang"
+        android:text="-간단한 분별법?"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:lineSpacingExtra="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ridibatang"
+        android:text="갑자기 가족 일원이 목사가 성경도 모르는 것 같다라는 말을 자주하고,'월,화,목,금'을 갑자기 늦게 들어올때,가족들의 질문에 역공격을 할때,교회를 멸망당할 바벨론이라고 말할때,아까 위에 말한 것처럼 다른 번역판 성경을 보지 않으려고 하면 엄청난 의심을 해보셔야 합니다"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ridibatang"
+        android:text="-그들이 쓰는 어플리케이션"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:lineSpacingExtra="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ridibatang"
+        android:text="만약 주변 가족이나 의심가는 사람이 있다면,휴대폰을 무조건 봐보셔야 합니다.필사적으로 그들은 휴대폰을 절때 공개 안할 것이지만,그래도 보셔야 합니다.여기 신천지들이 사용하는 어플 목록입니다.(정상적인 루트로 다운로드 할 수 없습니다.)\n-에스나비\n-진짜 바로알자 성경과 신천지\n-생명의 어록집\n-희소식\n-S라인\n-S카드\n-하늘제사장\n-새노래\n-밥먹자\n-와우몰\n-We Are One"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ridibatang"
+        android:text="-신천지에 빠졌거나 빠진거에 봤을때"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:lineSpacingExtra="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ridibatang"
+        android:text="한국기독교이단상담소협회 전화번호:0502-838-1452 홈페이지 주소:http://www.jesus114.net/ 로 반드시 연락을 취해야 합니다.반드시 당사자에게 알리지 말고 연락을 취하셔야 합니다.왜나하면 신천지에서 이 이단상담소 분들을 악마,마귀로 표현하기 때문에 절때로 가려 하지 않습니다.심지어 가출까지 시도하기 때문에,절때 당사자에게 알리시면 안됩니다.\n혼자 해결할려 하지 마시고 반드시 이곳에 연락을 하셔야 합니다."
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:paddingBottom="5dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="홈으로"
+        android:id="@+id/back3"/>
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

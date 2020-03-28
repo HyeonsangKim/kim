@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/design_default_color_surface"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar3"
+    tools:context=".Gt">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            app:srcCompat="@drawable/gt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:paddingBottom="5dp"
+            android:text="통일교"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:lineSpacingExtra="10dp"
+            android:text="사실 통일교는 이단 종교보다는 사이비 종교에 가깝습니다.문선명이라는 사람이 1954년에 설립한 기독교 세계관을 바탕으로 이슬람,힌두교를 짬뽕한 사이비 종교입니다.\n문선명을 메시아로 봅니다.또한 신자들 끼리 합동결혼식을 진행해서 유명한 종교이기도 합니다.인종,국가를 가리지 않으며 심지어 상대가 누군지도 모르고 결혼하는 경우도 있다고 합니다."
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:paddingBottom="5dp"
+            android:text="하나님의 교회"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:lineSpacingExtra="10dp"
+            android:text="1964년 안상홍이 세운 기독교 계통의 신흥종교인 '하나님의 교회 에수증인회'의 밑에 교단입니다.\n여기도 역시 교주를 신격화 시키고 '아버지 하나님'이 아닌 '어머니 하나님'이 존재 한다고 합니다.'장길자'라는 분이 살아계시는 어머니 하나님이라고 생각합니다."
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:paddingBottom="5dp"
+            android:text="여호와의 증인"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:lineSpacingExtra="10dp"
+            android:text="1872년 미국의 성서학자 찰스 테이즈 러셀이 국제성서연구자협회를 설립하면서 발생한 종교입니다.현재 기독교는 타락했으며,1세기의 그리스도인으로 돌아가즌 회복주의를 주장합니다.\n기독교의 삼위일체론과 예수 그리스도가 하나님이라는 것을 비롯한 기독교의 교리를 부정 합니다.또한 양심적 병역거부로 최근 관심을 많이 받고 있는 종교입니다."
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:paddingBottom="5dp"
+            android:text="구원파"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ridibatang"
+            android:lineSpacingExtra="10dp"
+            android:text="영국의 선교사 딕 욕 1960년대 자신의 구원관을 가지고 한국에 와서 선교 활동을 하면서 형성되었습니다.권신찬-유병언파,이요한파,박옥수파로 나뉘어져 있습니다."
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="홈으로"
+            android:id="@+id/back4"/>
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
